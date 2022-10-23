@@ -14,7 +14,7 @@ jobs:
     runs-on: ubuntu-latest    
     defaults:
        run:
-         working-directory: ./mock server/
+         working-directory: ./MockServer/
 
     strategy:
       matrix:
