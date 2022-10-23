@@ -11,8 +11,10 @@ on:
 
 jobs:
   build:
-
-    runs-on: ubuntu-latest
+    runs-on: self-hosted    
+    defaults:
+       run:
+         working-directory: ./mock server/
 
     strategy:
       matrix:
